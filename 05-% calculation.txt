@@ -1,0 +1,16 @@
+import java.lang.Math;
+class Basic
+{
+    public static void main(String[] args)
+    {
+    int m1=50,m2=60,m3=40,m4=70,m5=80;
+    int sum;
+    sum=m1+m2+m3+m4+m5;
+    float per;
+    per=(sum*100)/500;
+    System.out.println("percent is      "+per);
+    }
+
+    }
+
+    
