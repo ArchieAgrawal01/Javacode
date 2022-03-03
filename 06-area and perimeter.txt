@@ -1,0 +1,15 @@
+import java.lang.Math;
+class Basic
+{
+    public static void main(String[] args)
+    {
+   int l,b;
+   l=20;
+   b=20;
+   int area=l*b;
+   int peri=2*(l+b);
+   System.out.println("Area is "+area);
+   System.out.println("Perimeter is "+peri);
+    }
+}
+    
