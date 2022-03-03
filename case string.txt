@@ -1,0 +1,18 @@
+//Program to convert string into lower case and upper case
+import java.util.Scanner;
+
+class case string{
+ 	public static void main(String args[]){
+ 		Scanner sc = new Scanner(System.in);
+ 		String str;
+ 		System.out.printf("Enter String (hello): ");
+ 		str = sc.nextLine();
+		String u=str.toUpperCase();
+		String l=str.toLowerCase();
+		System.out.printf("%s" ,u);
+		System.out.printf("\n %s" ,l);
+ 
+	}
+ 
+}
+ 
