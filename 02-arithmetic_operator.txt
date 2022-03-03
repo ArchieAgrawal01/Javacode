@@ -1,0 +1,22 @@
+class basic 
+{
+    public static void main(String[] args)
+    {
+        int a,b,c, mul, add ,div,sub,mod1, mod2;
+        a=5;
+        b=12;
+        c=6;
+        mul=a*b*c;
+        add=a+b+c;
+        sub=a-b-c;
+        div=a/b/c;
+        mod1=a%b;
+        mod2=b%c;
+        System.out.println("Multiplication is "+mul); 
+        System.out.println("Addition is "+add); 
+        System.out.println("Substraction is "+sub); 
+        System.out.println("Division is "+div); 
+        System.out.println("Mod is "+mod1);
+        System.out.println("Mod is" +mod2);
+    }
+}
