@@ -1,0 +1,13 @@
+class basic 
+{
+    public static void main(String[] args)
+    {
+        int a,b,c,sum;
+        a=1;
+        b=7;
+        c=9;
+        sum=a+b+c;
+        float avg=sum/3;
+        System.out.printf("the average is"+avg);
+    }
+}
