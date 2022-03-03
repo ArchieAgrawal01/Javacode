@@ -1,0 +1,24 @@
+// program to calculate Students marks using JOptionPane (dialouge box)//
+import javax.swing.JOptionPane;
+class Student{
+	public static void main(String args[]){
+	String mark;
+	mark = JOptionPane.showInputDialog(null,"Enter students mark:");
+	int m = Integer.parseInt(mark);
+	if(m >=80 && m < 100){
+	 JOptionPane.showMessageDialog(null,"Student has Honour Grade..");
+	 }
+	else if(m >=60 && m < 79){
+	 JOptionPane.showMessageDialog(null,"Student pass with First Division ");
+	 }	
+	else if(m >=50 && m < 59){
+	 JOptionPane.showMessageDialog(null,"Student pass with Second Division");
+	 }
+	else if(m >= 35 && m < 49){
+	  JOptionPane.showMessageDialog(null,"Student pass with Third Division");
+	 }
+	else{
+	  JOptionPane.showMessageDialog(null,"Student is Fail..");
+	 }
+	}
+}
